@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+Font:
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.max-center {
+  max-width: 93.75rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.wrapper .columns .col-1__img-content {
+  height: 100%;
+}
+
+.wrapper .columns .col-1__img-content img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper .columns .col-2 {
+  background: #2febde;
+}
+
+.wrapper .columns .col-2__text-content {
+  padding: 5rem 3rem;
+  text-align: center;
+}
+
+.wrapper .columns .col-2__text-content h2 {
+  font-size: 2.7rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 60em) {
+  .wrapper .columns .col-2__text-content h2 {
+    font-size: 3rem;
+  }
+}
+
+.wrapper .columns .col-2__text-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 0rem;
+}
+
+.wrapper .columns .col-2__text-content p span {
+  margin-top: 2rem;
+  display: block;
+}
+
+@media (min-width: 60em) {
+  .wrapper .columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper .columns .col {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
